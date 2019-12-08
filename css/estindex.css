@@ -1,0 +1,18 @@
+nav{
+	width: 100%;
+	background-color: rgba(255,200,200,0.5);
+}
+
+nav div{
+	display: inline-block;
+	border-style: dashed;
+	border-radius: 5px;
+	transition: transform 3s;
+	transform: scale(1);
+	background-color: rgba(255,100,200,0.5);
+	margin-left: 200px;
+}
+
+nav div:hover{
+	transform: scale(10.5);
+}
